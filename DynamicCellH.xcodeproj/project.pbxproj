@@ -13,6 +13,7 @@
 		844F289E1C965E0400095C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F289C1C965E0400095C52 /* Main.storyboard */; };
 		844F28A01C965E0400095C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F289F1C965E0400095C52 /* Assets.xcassets */; };
 		844F28A31C965E0400095C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F28A11C965E0400095C52 /* LaunchScreen.storyboard */; };
+		844F28AD1C96767900095C52 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F28AB1C96767900095C52 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		844F289F1C965E0400095C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844F28A21C965E0400095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844F28A41C965E0400095C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F28AA1C96767900095C52 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		844F28AB1C96767900095C52 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				844F28971C965E0400095C52 /* AppDelegate.m */,
 				844F28991C965E0400095C52 /* ViewController.h */,
 				844F289A1C965E0400095C52 /* ViewController.m */,
+				844F28AA1C96767900095C52 /* CustomCell.h */,
+				844F28AB1C96767900095C52 /* CustomCell.m */,
 				844F289C1C965E0400095C52 /* Main.storyboard */,
 				844F289F1C965E0400095C52 /* Assets.xcassets */,
 				844F28A11C965E0400095C52 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				844F289B1C965E0400095C52 /* ViewController.m in Sources */,
 				844F28981C965E0400095C52 /* AppDelegate.m in Sources */,
+				844F28AD1C96767900095C52 /* CustomCell.m in Sources */,
 				844F28951C965E0400095C52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
