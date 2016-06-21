@@ -14,6 +14,9 @@
 		844F28A01C965E0400095C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F289F1C965E0400095C52 /* Assets.xcassets */; };
 		844F28A31C965E0400095C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F28A11C965E0400095C52 /* LaunchScreen.storyboard */; };
 		844F28AD1C96767900095C52 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F28AB1C96767900095C52 /* CustomCell.m */; };
+		844F292A1C96AC4B00095C52 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F29291C96AC4B00095C52 /* NSString+Ext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84FD03AD1C96E1B700D1CE8C /* CustomCellWithXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD03AB1C96E1B700D1CE8C /* CustomCellWithXib.m */; };
+		84FD03AE1C96E1B700D1CE8C /* CustomCellWithXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FD03AC1C96E1B700D1CE8C /* CustomCellWithXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,38 @@
 		844F28A41C965E0400095C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844F28AA1C96767900095C52 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		844F28AB1C96767900095C52 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		844F28B61C96872B00095C52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844F28B81C96872B00095C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844F28B91C96872B00095C52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844F28BB1C96872B00095C52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844F28BC1C96872B00095C52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844F28BF1C96872B00095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844F28C11C96872B00095C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844F28C41C96872B00095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844F28C61C96872B00095C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F28D11C9687EA00095C52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844F28D31C9687EA00095C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844F28D41C9687EA00095C52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844F28D61C9687EA00095C52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844F28D71C9687EA00095C52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844F28DA1C9687EA00095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844F28DC1C9687EA00095C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844F28DF1C9687EA00095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844F28E11C9687EA00095C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F28EC1C96881300095C52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844F28EE1C96881300095C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844F28EF1C96881300095C52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844F28F11C96881300095C52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844F28F21C96881300095C52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844F28F51C96881300095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844F28F71C96881300095C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844F28FA1C96881300095C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844F28FC1C96881300095C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F29281C96AC4B00095C52 /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
+		844F29291C96AC4B00095C52 /* NSString+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		84FD03AA1C96E1B700D1CE8C /* CustomCellWithXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellWithXib.h; sourceTree = "<group>"; };
+		84FD03AB1C96E1B700D1CE8C /* CustomCellWithXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellWithXib.m; sourceTree = "<group>"; };
+		84FD03AC1C96E1B700D1CE8C /* CustomCellWithXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellWithXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				844F28921C965E0400095C52 /* DynamicCellH */,
+				844F28B41C96872B00095C52 /* DynamicCellWithBaidu */,
+				844F28CF1C9687EA00095C52 /* DynamicCellWithBaidu */,
+				844F28EA1C96881200095C52 /* DynamicCellWithBaidu */,
 				844F28911C965E0400095C52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,12 +99,16 @@
 		844F28921C965E0400095C52 /* DynamicCellH */ = {
 			isa = PBXGroup;
 			children = (
+				84FD03A91C96D42700D1CE8C /* Utils */,
 				844F28961C965E0400095C52 /* AppDelegate.h */,
 				844F28971C965E0400095C52 /* AppDelegate.m */,
 				844F28991C965E0400095C52 /* ViewController.h */,
 				844F289A1C965E0400095C52 /* ViewController.m */,
 				844F28AA1C96767900095C52 /* CustomCell.h */,
 				844F28AB1C96767900095C52 /* CustomCell.m */,
+				84FD03AA1C96E1B700D1CE8C /* CustomCellWithXib.h */,
+				84FD03AB1C96E1B700D1CE8C /* CustomCellWithXib.m */,
+				84FD03AC1C96E1B700D1CE8C /* CustomCellWithXib.xib */,
 				844F289C1C965E0400095C52 /* Main.storyboard */,
 				844F289F1C965E0400095C52 /* Assets.xcassets */,
 				844F28A11C965E0400095C52 /* LaunchScreen.storyboard */,
@@ -82,6 +124,87 @@
 				844F28941C965E0400095C52 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844F28B41C96872B00095C52 /* DynamicCellWithBaidu */ = {
+			isa = PBXGroup;
+			children = (
+				844F28B81C96872B00095C52 /* AppDelegate.h */,
+				844F28B91C96872B00095C52 /* AppDelegate.m */,
+				844F28BB1C96872B00095C52 /* ViewController.h */,
+				844F28BC1C96872B00095C52 /* ViewController.m */,
+				844F28BE1C96872B00095C52 /* Main.storyboard */,
+				844F28C11C96872B00095C52 /* Assets.xcassets */,
+				844F28C31C96872B00095C52 /* LaunchScreen.storyboard */,
+				844F28C61C96872B00095C52 /* Info.plist */,
+				844F28B51C96872B00095C52 /* Supporting Files */,
+			);
+			path = DynamicCellWithBaidu;
+			sourceTree = "<group>";
+		};
+		844F28B51C96872B00095C52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844F28B61C96872B00095C52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844F28CF1C9687EA00095C52 /* DynamicCellWithBaidu */ = {
+			isa = PBXGroup;
+			children = (
+				844F28D31C9687EA00095C52 /* AppDelegate.h */,
+				844F28D41C9687EA00095C52 /* AppDelegate.m */,
+				844F28D61C9687EA00095C52 /* ViewController.h */,
+				844F28D71C9687EA00095C52 /* ViewController.m */,
+				844F28D91C9687EA00095C52 /* Main.storyboard */,
+				844F28DC1C9687EA00095C52 /* Assets.xcassets */,
+				844F28DE1C9687EA00095C52 /* LaunchScreen.storyboard */,
+				844F28E11C9687EA00095C52 /* Info.plist */,
+				844F28D01C9687EA00095C52 /* Supporting Files */,
+			);
+			path = DynamicCellWithBaidu;
+			sourceTree = "<group>";
+		};
+		844F28D01C9687EA00095C52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844F28D11C9687EA00095C52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844F28EA1C96881200095C52 /* DynamicCellWithBaidu */ = {
+			isa = PBXGroup;
+			children = (
+				844F28EE1C96881300095C52 /* AppDelegate.h */,
+				844F28EF1C96881300095C52 /* AppDelegate.m */,
+				844F28F11C96881300095C52 /* ViewController.h */,
+				844F28F21C96881300095C52 /* ViewController.m */,
+				844F28F41C96881300095C52 /* Main.storyboard */,
+				844F28F71C96881300095C52 /* Assets.xcassets */,
+				844F28F91C96881300095C52 /* LaunchScreen.storyboard */,
+				844F28FC1C96881300095C52 /* Info.plist */,
+				844F28EB1C96881300095C52 /* Supporting Files */,
+			);
+			path = DynamicCellWithBaidu;
+			sourceTree = "<group>";
+		};
+		844F28EB1C96881300095C52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844F28EC1C96881300095C52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FD03A91C96D42700D1CE8C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				844F29281C96AC4B00095C52 /* NSString+Ext.h */,
+				844F29291C96AC4B00095C52 /* NSString+Ext.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FD03AE1C96E1B700D1CE8C /* CustomCellWithXib.xib in Resources */,
 				844F28A31C965E0400095C52 /* LaunchScreen.storyboard in Resources */,
 				844F28A01C965E0400095C52 /* Assets.xcassets in Resources */,
 				844F289E1C965E0400095C52 /* Main.storyboard in Resources */,
@@ -156,6 +280,8 @@
 			files = (
 				844F289B1C965E0400095C52 /* ViewController.m in Sources */,
 				844F28981C965E0400095C52 /* AppDelegate.m in Sources */,
+				84FD03AD1C96E1B700D1CE8C /* CustomCellWithXib.m in Sources */,
+				844F292A1C96AC4B00095C52 /* NSString+Ext.m in Sources */,
 				844F28AD1C96767900095C52 /* CustomCell.m in Sources */,
 				844F28951C965E0400095C52 /* main.m in Sources */,
 			);
@@ -176,6 +302,54 @@
 			isa = PBXVariantGroup;
 			children = (
 				844F28A21C965E0400095C52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		844F28BE1C96872B00095C52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F28BF1C96872B00095C52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844F28C31C96872B00095C52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F28C41C96872B00095C52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		844F28D91C9687EA00095C52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F28DA1C9687EA00095C52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844F28DE1C9687EA00095C52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F28DF1C9687EA00095C52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		844F28F41C96881300095C52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F28F51C96881300095C52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844F28F91C96881300095C52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F28FA1C96881300095C52 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -270,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DynamicCellH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taitanxiami.DynamicCellH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DynamicCellH/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.taitanxiami.DynamicCellH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +482,7 @@
 				844F28A91C965E0400095C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
